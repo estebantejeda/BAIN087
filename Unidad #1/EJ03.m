@@ -20,20 +20,6 @@ B*A
 
 # Norma 1
 
-disp('Norma 1 de A:')
-disp(norma1(A))
-disp('Norma 1 de B:')
-disp(norma1(B))
-
-# Norma Infinita
-
-disp('Norma Infinita de A:')
-disp(normaInf(A))
-disp('Norma Infinita de B:')
-disp(normaInf(B))
-
-# Funciones
-
 function y = norma1(X)
   for i = 1:length(X)
     A(1,i) = sum(abs(X(:,i)));
@@ -41,9 +27,21 @@ function y = norma1(X)
   y = max(A);
 endfunction
 
+disp('Norma 1 de A:')
+disp(norma1(A))
+disp('Norma 1 de B:')
+disp(norma1(B))
+
+# Norma Infinita
+
 function y = normaInf(X)
   for i = 1:length(X)
     A(1,i) = sum(abs(X(i,:)));
   endfor
   y = max(A);
 endfunction
+
+disp('Norma Infinita de A:')
+disp(normaInf(A))
+disp('Norma Infinita de B:')
+disp(normaInf(B))
