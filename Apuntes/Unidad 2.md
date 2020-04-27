@@ -172,7 +172,7 @@ b_1 = f[x_1,x_0]
 b_n = f[x_n, x_{n-1},\cdots,x_1,x_0]
 $$
 
-![image-20200318170014039](/home/esteban/.config/Typora/typora-user-images/image-20200318170014039.png)
+![image-20200318170014039](.img/image-20200318170014039.png)
 $$
 f[x_i,x_j] = \frac{f(x_i)-f(x_j)}{x_i-x_j}
 \\

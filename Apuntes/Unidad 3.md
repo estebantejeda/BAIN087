@@ -94,6 +94,3 @@ k_3 = f(x_i+\frac{1}{2}h,y_i+\frac{1}{2}k_2h)
 \\
 k_4 = f(x_i+h,y_i+k_3h)
 $$
-
-
-
